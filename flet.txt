@@ -1,0 +1,2 @@
+intall flet in python:
+- py install flet
