@@ -1,2 +1,4 @@
-intall flet in python:
-- py install flet
+Intall flet in python:
+- pip install flet
+El flag -d (developer mode) activa depuración y actualizaciones en tiempo real.
+- flet run file.py -d

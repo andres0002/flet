@@ -1,6 +1,6 @@
 # py
 # flet
-import flet as ft
+import flet as ft # type: ignore
 # third
 # own
 
