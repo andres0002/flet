@@ -1,4 +1,13 @@
 Intall flet in python:
 - pip install flet
 El flag -d (developer mode) activa depuración y actualizaciones en tiempo real.
+- flet run file.py
 - flet run file.py -d
+
+| Nombre | Ancho máximo de la ventana | Uso típico                              |
+| ------ | -------------------------- | --------------------------------------- |
+| **xs** | `< 600 px`                 | móviles muy pequeños                    |
+| **sm** | `600 – 840 px`             | móviles grandes / tablets vertical      |
+| **md** | `840 – 1024 px`            | tablets horizontales / laptops pequeñas |
+| **lg** | `1024 – 1440 px`           | portátiles grandes                      |
+| **xl** | `>= 1440 px`               | monitores grandes                       |
