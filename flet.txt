@@ -4,6 +4,8 @@ El flag -d (developer mode) activa depuración y actualizaciones en tiempo real.
 - flet run file.py
 - flet run file.py -d
 
+Breakpoints (puntos de quiebre) en diseño responsivo 📱💻🖥️.
+
 | Nombre | Ancho máximo de la ventana | Uso típico                              |
 | ------ | -------------------------- | --------------------------------------- |
 | **xs** | `< 600 px`                 | móviles muy pequeños                    |
@@ -11,3 +13,24 @@ El flag -d (developer mode) activa depuración y actualizaciones en tiempo real.
 | **md** | `840 – 1024 px`            | tablets horizontales / laptops pequeñas |
 | **lg** | `1024 – 1440 px`           | portátiles grandes                      |
 | **xl** | `>= 1440 px`               | monitores grandes                       |
+
+Modos de apertura con open()
+
+| Modo  | Tipo    | Descripción                                                        |
+| ----- | ------- | ------------------------------------------------------------------ |
+| `r`   | Texto   | Leer. Error si no existe.                                          |
+| `w`   | Texto   | Escribir. Sobrescribe si existe, crea si no.                       |
+| `a`   | Texto   | Agregar al final. Crea si no existe.                               |
+| `x`   | Texto   | Crear archivo nuevo. Error si ya existe.                           |
+| `rb`  | Binario | Leer en binario. Error si no existe.                               |
+| `wb`  | Binario | Escribir en binario. Sobrescribe si existe.                        |
+| `ab`  | Binario | Agregar en binario. Crea si no existe.                             |
+| `xb`  | Binario | Crear archivo nuevo en binario. Error si ya existe.                |
+| `r+`  | Texto   | Leer y escribir. No borra. Error si no existe.                     |
+| `w+`  | Texto   | Leer y escribir. Sobrescribe si existe, crea si no.                |
+| `a+`  | Texto   | Leer y escribir. Agrega al final. Crea si no existe.               |
+| `x+`  | Texto   | Crear y abrir para leer y escribir. Error si ya existe.            |
+| `rb+` | Binario | Leer y escribir en binario. No borra. Error si no existe.          |
+| `wb+` | Binario | Leer y escribir en binario. Sobrescribe si existe, crea si no.     |
+| `ab+` | Binario | Leer y escribir en binario. Agrega al final. Crea si no existe.    |
+| `xb+` | Binario | Crear y abrir en binario para leer y escribir. Error si ya existe. |
